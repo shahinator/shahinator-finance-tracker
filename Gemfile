@@ -6,6 +6,12 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 
+
+#Bootstrap 
+
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -27,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
